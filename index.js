@@ -3,7 +3,7 @@
  console.log(taskContainer);
 
  const generateNewCard = (taskData) =>
- ` <div class="col-sm-12 col-md-6 col-lg-3" >
+ ` <div class="col-sm-12 col-md-6 col-lg-4" >
  <div class="card">
      <div class="card-header d-flex  justify-content-end gap-2">
          <button type="button" class="btn btn-outline-success"><i class="fas fa-pencil"></i></button>
