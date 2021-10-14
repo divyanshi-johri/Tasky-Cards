@@ -9,9 +9,10 @@
          <button type="button" class="btn btn-outline-success"><i class="fas fa-pencil"></i></button>
          <button type="button" class="btn btn-outline-danger" id=${taskData.id} onclick="deleteCard.apply(this,arguments)"> <i class="fas fa-trash-alt" id=${taskData.id} onclick="deleteCard.apply(this,arguments)"></i></button>
      </div>
+     <img class="card-image-top" src=${taskData.imageUrl} alt="image">
          
      <div class="card-body">
-         <img class="card-image-top" src=${taskData.imageUrl} alt="image">
+         
        <h5 class="card-title mt-3 fw-bold text-primary">${taskData.taskTitle}</h5>
        <p class="card-text">${taskData.taskType}</p>
        <p >${taskData.taskDescription}</p>
